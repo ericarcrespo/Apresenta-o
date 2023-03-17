@@ -1,0 +1,109 @@
+/*Folha de estilo*/
+
+/*Seletor {
+    propriedade:valor;
+}*/
+
+body {
+    background-color: #2D033B;
+    font-family: 'Roboto', sans-serif;
+}
+
+div {
+    text-align: center;
+    background-color: #F2DFE2;
+    /*cor de fundo*/
+    width: 90%;
+    max-width: 400px;
+    /*largura*/
+    border-radius: 10px;
+    /*bordas*/
+
+    /* macete pra ficar no meio da tela*/
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 30px;
+    /*espaçamento interno*/
+    box-sizing: border-box;
+    /*Faz as larguras sejam respeitadas mesmo com padding/borda*/
+
+
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    border: #2D033B 5px solid;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    color: #2D033B;
+    font-size: 32px;
+}
+
+h2 {
+    color: #810CA8;
+    font-size: 20px;
+}
+
+p {
+    color: #7F8487;
+    font-size: 16px;
+}
+
+ul {
+    margin: 0 0 30px 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul a {
+    background-color: #2D033B;
+    color: #FFF;
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    /*retira o sublinhado padrão dos links*/
+}
+
+ul a:hover {
+    background-color: #E5B8F4;
+    color: #2D033B;
+}
+
+#site {
+    color: #2D033B;
+}
+
+/*Condição para tela pequena*/
+/*Media Query*/
+@media (max-width:414px) {
+
+    ul a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+    img{
+        display: none;
+    }
+}
